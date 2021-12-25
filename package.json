@@ -1,0 +1,18 @@
+{
+  "name": "basic_server",
+  "version": "1.0.0",
+  "description": "Small server that prints the post and get requests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ."
+  },
+  "author": "Yasha",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "bulma": "^0.9.3",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6"
+  }
+}
